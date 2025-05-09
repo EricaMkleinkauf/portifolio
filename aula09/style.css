@@ -1,0 +1,94 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2C3E50;
+
+}
+
+main {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    background-color:  #cae1f8;
+    position: relative;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 250%;
+    color: black;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #cae1f8;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
+
+div {
+    background-color: #3498DB;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+    height: 70%;
+    width: 40%;
+    border-radius: 5%;
+}
+
+h5{
+    padding-top: 20px;
+    font-size: 120%;
+    background-color:  #21303e;
+    border-radius: 5%;
+}
+
+p {
+    padding-top: 40px;
+}
+.arthur h5{
+    color: white;
+}
+
+.container h2 {
+    text-align: left;
+    font-size: 250%;
+    padding-top: 3%;
+}
+
+
+.listinha h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 130%;
+    background-color:  #21303e;
+    border-radius: 5%;
+    color: white;
+}
+
+.listinha{
+    text-align: left;
+    font-size: 100%;
+}
+
+ul{
+    margin-left: 10px;
+}

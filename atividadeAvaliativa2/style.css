@@ -1,0 +1,154 @@
+/* Define a fonte padrão da página */
+* {
+    font-family: 'VT323', monospace;
+}
+
+/* Define altura e largura total para o HTML */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Define a altura e largura do body e adiciona uma imagem de fundo */
+body {
+    height: 100%;
+    width: 90%;
+    background-image: url(./img/fundo\ amarelo.avif);
+    background-size: cover;
+}
+
+/* Centraliza a pokedex na horizontal com flexbox */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Define tamanho do elemento da Pokédex */
+#figPokedex {
+    width: 40%;
+    height: 60%;
+}
+
+/* Container pai para posicionar elementos filhos com absolute */
+#container {
+    position: relative;
+}
+
+/* Define posição e tamanho da imagem do Pokémon */
+#imagemPoke {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: auto;
+    height: 10%;
+}
+
+/* Define posição e aparência do formulário */
+#form {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    box-shadow: -2px 2px #363535;
+}
+
+/* Posição do nome do Pokémon */
+#nome {
+    position: absolute;
+    bottom: 33%;
+    left: 25%;
+}
+
+/* Posição das informações adicionais */
+#info {
+    position: absolute;
+    bottom: 28%;
+    left: 25%;
+    font-size: 80%;
+}
+
+/* Mais informações adicionais, posicionadas um pouco abaixo */
+#info2 {
+    position: absolute;
+    bottom: 16%;
+    left: 25%;
+}
+
+/* Botões de navegação com espaçamento e posição definidos */
+#botoes {
+    position: absolute;
+    bottom: 9%;
+    display: flex;
+    gap: 55%;
+    left: 25%;
+    width: 44%;
+}
+
+/* Define tamanho da fonte dos campos de ID e nome do Pokémon */
+#idpokemon,
+#nomepokemon {
+    font-size: 20px;
+}
+
+/* Estilização do botão "Voltar" */
+#btnvoltar {
+    background: linear-gradient(to bottom, #a19999, #b5afaf);
+    box-shadow: -2px 2px #262525;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);    
+    height: 10%;      
+    font-size: 110%; 
+    width: 70%;
+}
+
+/* Estilização do botão "Próximo" */
+#btnproximo {
+    background: linear-gradient(to bottom, #a19999, #b5afaf);
+    box-shadow: -2px 2px #262525;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);    
+    height: 10%;      
+    font-size: 110%; 
+    width: 70%;
+}
+
+/* Botão superior esquerdo*/
+#btnintrot {
+    position: absolute;
+    bottom: 79%;
+    left: 62%;
+    width: 12%;
+    height: 4%;
+}
+
+/* Botão superior direito*/
+#btnintrop {
+    position: absolute;
+    bottom: 79%;
+    left: 48%;
+    width: 13%;
+    height: 4%;
+}
+
+/* Estilo comum para os botões principais */
+#btnproximo,
+#btnvoltar,
+button {
+    background: linear-gradient(145deg, #f82626, #db0e0e); 
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Efeito hover para os botões */
+#btnproximo,
+#btnvoltar,
+button:hover {
+    background: linear-gradient(145deg, #f82626, #db0e0e);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}

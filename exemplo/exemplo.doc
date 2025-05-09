@@ -1,0 +1,183 @@
+📝 1. Estilização de Texto
+color
+Define a cor do texto. Pode usar nomes, hexadecimal, RGB, etc.
+
+css
+p {
+  color: blue; /* texto azul */
+}
+
+font-size
+Controla o tamanho da fonte. Pode ser em px, em, % etc.
+h1 {
+  font-size: 32px;
+}
+
+font-family
+Define qual a fonte será usada. Sempre coloque fontes alternativas.
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+font-weight
+Controla a “espessura” do texto — mais fino ou mais grosso.
+strong {
+  font-weight: bold; /* pode usar números: 100 a 900 */
+}
+
+
+text-align
+Alinha o texto: à esquerda, centro, direita ou justificado.
+h2 {
+  text-align: center;
+}
+
+
+text-decoration
+Adiciona efeitos como sublinhado, linha cortando, etc.
+a {
+  text-decoration: none; /* remove o sublinhado de links */
+}
+
+
+line-height
+Define o espaçamento entre linhas de um texto.
+p {
+  line-height: 1.6;
+}
+
+
+📏 2. Tamanho e Espaçamento
+width e height
+Definem a largura e altura de um elemento.
+div {
+  width: 300px;
+  height: 200px;
+}
+
+
+margin
+Cria espaço externo (do lado de fora da borda do elemento).
+section {
+  margin: 20px;
+}
+
+
+padding
+Cria espaço interno (entre o conteúdo e a borda).
+section {
+  padding: 15px;
+}
+
+
+.caixa {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+
+
+🎨 3. Cores e Fundos
+background-color
+Cor de fundo de um elemento.
+body {
+  background-color: #fce4ec;
+}
+
+
+background-image
+Define uma imagem como fundo.
+div {
+  background-image: url("fundo.jpg");
+  background-size: cover;
+}
+
+
+opacity
+Controla a transparência do elemento (0 = invisível, 1 = opaco).
+img {
+  opacity: 0.5;
+}
+
+
+🧱 4. Caixa e Layout
+display
+Controla como o elemento se comporta na página:
+
+block: quebra linha (ex: <div>)
+
+inline: não quebra (ex: <span>)
+
+flex: cria layouts flexíveis
+.container {
+  display: flex;
+}
+
+
+position
+Controla a posição do elemento.
+
+static: padrão
+
+relative: move em relação à posição normal
+
+absolute: move em relação ao container pai
+
+fixed: fixo na tela
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+top, right, bottom, left
+Usado com position para posicionar elementos.
+.box {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+
+z-index
+Controla o empilhamento (quem fica “por cima”).
+.box1 {
+  z-index: 10;
+}
+
+
+
+✨ 5. Efeitos Visuais
+border
+Cria bordas ao redor de elementos.
+img {
+  border: 2px solid black;
+}
+
+
+border-radius
+Arredonda os cantos de elementos.
+.card {
+  border-radius: 10px;
+}
+
+
+box-shadow
+Cria sombra ao redor da caixa.
+.card {
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+
+transition
+Cria animações suaves ao mudar propriedades.
+button {
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,100 @@
+#botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+body {
+    background: linear-gradient(145deg, #ffe4f0, #fff0f6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .calculadora {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  .display {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background: #ffeaf5;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #c026d3;
+  }
+  
+  .teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px; /* 👈 espaçamento leve entre botões */
+  }
+  
+  button {
+    height: 60px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #fbcfe8;
+    color: #831843;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  button:hover {
+    background-color: #f9a8d4;
+    transform: scale(1.05);
+  }
+  
+  button.operador {
+    background-color: #f472b6;
+    color: white;
+  }
+  
+  button.operador:hover {
+    background-color: #ec4899;
+  }
+  
+  button#igual {
+    background-color: #e879f9;
+    color: white;
+    grid-column: span 1;
+  }
+  
+  button#igual:hover {
+    background-color: #c026d3;
+  }
+  
+  button#del {
+    background-color: #f43f5e;
+    color: white;
+  }
+  
+  button#del:hover {
+    background-color: #be123c;
+  }
+  
+
+  #inputText {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+  }
+  

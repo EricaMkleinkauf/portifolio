@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+.parallax-window {
+    height: 100vh;
+    background-position: center;
+  }
+
+  .bloco {
+    background-color: rgb(230, 214, 244);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

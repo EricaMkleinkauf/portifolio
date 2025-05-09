@@ -1,0 +1,49 @@
+{
+  "pessoas": [
+    {
+      "nome": "fulano",
+      "idade": 23,
+      "local": {
+        "cidade": "sao leopoldo",
+        "UF": "rio grande do sul",
+        "Pais": "Brasil"
+      }
+    },
+    {
+      "nome": "beltrano",
+      "idade": 22,
+      "local": {
+        "cidade": "canoas",
+        "UF": "rio grande do sul",
+        "Pais": "Brasil"
+      }
+    },
+    {
+      "nome": "milano",
+      "idade": 13,
+      "local": {
+        "cidade": "esteio",
+        "UF": "rio grande do sul",
+        "Pais": "Brasil"
+      }
+    },
+    {
+      "nome": "caibano",
+      "idade": 55,
+      "local": {
+        "cidade": "sapucaia",
+        "UF": "rio grande do sul",
+        "Pais": "Brasil"
+      }
+    },
+    {
+      "nome": "bubiano",
+      "idade": 55,
+      "local": {
+        "cidade": "poa",
+        "UF": "rio grande do sul",
+        "Pais": "Brasil"
+      }
+    }
+  ]
+}
