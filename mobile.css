@@ -1,0 +1,103 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 96%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header img {
+  max-width: 50%;
+  height: auto;
+  margin-left: 130%;
+  margin-top: 15px;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 90%;
+  height: 30%;
+}
+
+.paineis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 25%;
+}
+
+.menu-opcoes {
+
+  display: flex;
+  align-items: center; 
+  margin-top: 94px;
+  margin-right: 40px;
+}
+
+.painel {
+  position: relative;
+}
+
+footer{
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.menu-opcoes ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+.busca, .menu-conteudo {
+  width: 100%; 
+  margin-right: 0; 
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(194, 186, 186);
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+
+.painel {
+  width: auto; 
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+
+.painel li {
+  width: 60%; 
+  margin: 5px; 
+  box-sizing: border-box; 
+}
+
+
+.painel img {
+  width: 100%;
+  height: auto; 
+  display: block; 
+}

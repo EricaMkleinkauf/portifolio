@@ -1,0 +1,262 @@
+/*problema footer*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 195, 226);
+
+}
+
+main {
+    width: 100%;
+    height: 80%;
+}
+
+.container {
+    width: 100%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    background-color: rgb(100, 44, 101);
+    position: relative;
+}
+
+.menu-opcoes {
+    text-align: left;
+    display: flex;
+    word-spacing: 15px;
+    margin: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+
+    margin-top: -30px;
+    text-align: right;
+
+}
+
+#links li {
+    display: inline;
+    margin-left: 10px;
+}
+
+
+h1 {
+    width: 30%;
+    height: 100%;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.menu-opcoes a {
+    color: white;
+    text-decoration: none
+}
+
+.menu-opcoes ul li a:hover {
+    color: rgb(165, 182, 253);
+}
+
+a {
+    color: blue;
+    text-decoration: none
+}
+
+footer {
+    background-color: rgb(231, 167, 187);
+    color: blue;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    width: 100px;
+}
+
+footer a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+    height: 30px; 
+}
+
+footer a[href*="github"] {
+    background-image: url(./img/arcticons--github.png);
+}
+
+footer a[href*="linkedin"] {
+    background-image: url(./img/et--linkedin.png);
+}
+
+footer a[href*="instagram"] {
+    background-image: url("./img/carbon--logo-instagram.png");
+}
+.Aula01, .Blog{
+    display: flex;
+    background: linear-gradient(rgb(117, 117, 213), #a669dc);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.painel {
+    display: flex;
+    width: 60%;
+    height: 110%;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(208, 147, 227), #5059b9);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.painel img {
+    width: 100%;
+    max-width: 850px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.paineis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+    align-items: stretch;
+    height: 60%;
+}
+
+
+.painel li {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.7s, transform 0.7s;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.painel li:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    transform: scale(1.05) rotate(-3deg);
+}
+
+.painel li figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.7s;
+}
+
+
+.painel li:hover figure img {
+    transform: scale(1.05);
+}
+
+
+#ex1 {
+    color: black;
+}
+
+#ex2 {
+    color: black;
+}
+
+.aula01 {
+    float: left;
+}
+
+.aula02 {
+    float: right;
+}
+
+.aula01 img {
+    width: 270px;
+    height: 150px;
+    border-radius: none;
+
+
+}
+
+.aula01 li {
+    width: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.aula02 img {
+    width: 270px;
+    height: 150px;
+    border-radius: none;
+}
+
+.aula02 li {
+    width: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.aula01 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4b3f72;
+    margin-bottom: 10px;
+
+}
+
+.aula02 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4b3f72;
+    margin-bottom: 10px;
+}
+
+.aula01 h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #6d597a;
+    margin-bottom: 8px;
+}
+
+.aula02 h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #6d597a;
+    margin-bottom: 8px;
+}
+
