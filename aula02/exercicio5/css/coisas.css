@@ -1,0 +1,58 @@
+body{
+    background-image: url('../img/doce.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.555); 
+    background-blend-mode: darken; 
+}
+
+
+h2{
+    text-decoration: underline;
+    margin: 0;
+    padding: 5px 5px;
+    color: rgb(71, 22, 22);
+    background-color: rgb(250, 214, 175);
+    background-position: center;}
+
+p{
+    margin: 0;
+    color: rgb(71, 22, 22);
+    background-color: rgb(250, 214, 175);
+    background-position: center;
+}
+
+p{
+    margin: 0;
+    padding: 10px 10px;
+    color: rgb(71, 22, 22);
+    background-color: rgb(250, 214, 175);
+    background-position: center;}
+
+p{
+    margin: 0;
+    padding: 10px 10px;
+    color: rgb(71, 22, 22);
+    background-color: rgb(250, 214, 175);
+    background-position: center;}
+
+.square {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 500px; /* Largura */
+    height: 300px; /* Altura */
+    background-color: rgb(250, 214, 175); 
+  }
+
+  footer {
+    background-color: beige;
+    color: brown;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

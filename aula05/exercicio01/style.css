@@ -1,0 +1,62 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: yellow;
+    font-family: cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+#descricao {
+    background-color: tomato;
+    float: left;
+    width: 49%;
+    height: 85%;
+}
+
+#divimg {
+    float: right;
+    width: 49%;
+    height: 85%;
+    font-family: cursive;
+}
+
+#divimg img{
+    width: auto;
+    height: 70% ;
+}
+
+#footer {
+
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+#tabelinha{
+    text-align: left;
+}
+
+#tabelinha th, td{
+    border-bottom: 1px solid black;
+}
+
+#tabelinha th{
+    text-align: right;
+}

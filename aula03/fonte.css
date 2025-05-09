@@ -1,0 +1,29 @@
+#p1{ 
+    font-family: serif;
+    font-size: large;
+    font-style: normal;
+}
+
+#p2{
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+
+#p3{
+    font-family: monospace;
+    font-size: small;
+    font-style: oblique;
+}
+
+#p4{
+    font-family: cursive;
+    font-size: smaller;
+    font-style: inherit;
+}
+
+#p5{
+    font-family: fantasy;
+    font-size: x-large;
+    font-style: initial;
+}
